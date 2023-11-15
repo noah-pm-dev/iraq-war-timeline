@@ -1,12 +1,49 @@
 {
     "title": {
-        "text": {
-            "text": "testing testing"
-        }
+        "text": "My Timeline"
     },
     "events": [
         {
-            "start_date": { "year": 1923 }
+            "start_date": {
+                "year": 2022,
+                "month": 1,
+                "day": 1
+            },
+            "end_date": {
+                "year": 2022,
+                "month": 1,
+                "day": 5
+            },
+            "text": {
+                "headline": "Event 1",
+                "text": "Description of Event 1"
+            },
+            "media": {
+                "url": "path/to/event1-image.jpg",
+                "credit": "Image Credit",
+                "caption": "Event 1 Image"
+            }
+        },
+        {
+            "start_date": {
+                "year": 2022,
+                "month": 2,
+                "day": 10
+            },
+            "end_date": {
+                "year": 2022,
+                "month": 2,
+                "day": 15
+            },
+            "text": {
+                "headline": "Event 2",
+                "text": "Description of Event 2"
+            },
+            "media": {
+                "url": "path/to/event2-image.jpg",
+                "credit": "Image Credit",
+                "caption": "Event 2 Image"
+            }
         }
     ]
 }
