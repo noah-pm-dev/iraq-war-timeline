@@ -1,0 +1,12 @@
+{
+    "title": {
+        "text": {
+            "text": "testing testing"
+        }
+    },
+    "events": [
+        {
+            "start_date": { "year": 1923 }
+        }
+    ]
+}
